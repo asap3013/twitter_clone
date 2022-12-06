@@ -1,0 +1,18 @@
+mysql_host: 'localhost'
+mysql_user: 'root'
+mysql_password: 'p@ssw0rd'
+mysql_db: 'twitter'
+
+
+# class User(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
+#     username = db.Column(db.String(100), nullable=False)
+#     firstname = db.Column(db.String(100), nullable=False)
+#     lastname = db.Column(db.String(100), nullable=False)
+#     email = db.Column(db.String(80), unique=True, nullable=False)
+#     password = db.Column(db.String(10), nullable=False)
+
+# class Tweets(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
+#     uid = db.Column(db.Integer, db.ForeignKey("user.id"))
+#     content = db.Column(db.String(2048))
